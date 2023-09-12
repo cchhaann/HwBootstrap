@@ -1,0 +1,22 @@
+// // Required scss functions路徑
+// @import "../boostrap/scss/_functions";
+
+// // Default variable overrides 自訂的
+// // 須外掛延伸模組Live Sass Compiler
+// $primary: #5e917ce4;
+// $secondary: lightblue;
+
+// // Required
+// @import "../boostrap/scss/_variables";
+// @import "../boostrap/scss/_variables-dark";
+// @import "../boostrap/scss/_maps";
+// @import "../boostrap/scss/_mixins";
+// @import "../boostrap/scss/_root";
+// @import "../boostrap/scss/_root";
+// // @import "../boostrap/scss/_helpers";
+
+// 變數需放在上面才會有效
+$primary: #5e917ce4;
+
+// 全域引用
+@import "../boostrap/scss/bootstrap";
